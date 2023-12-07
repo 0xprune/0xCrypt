@@ -1,7 +1,7 @@
 <h1 align="center">0xCrypt</h1>
 <p></p>
 
-<h4 align="center">Enkripsi dan dekripsi pesan text anda dengan algoritma AES dan DES-EDB yang dilengkapi password enkripsi untuk keamanan berlapis. Dibuat dengan framework CSS <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a> dan Vanilla JavaScript.
+<h4 align="center">Enkripsi dan dekripsi pesan text anda dengan algoritma AES dan DES-ECB yang dilengkapi password enkripsi untuk keamanan berlapis. Dibuat dengan framework CSS <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a> dan Vanilla JavaScript.
 </h4>
 
 <p></p>
