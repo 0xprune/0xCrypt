@@ -296,10 +296,14 @@
         var encryptionKey = document.getElementById("password").value;
 
         // Menggunakan DES ECB
-        var encrypted = CryptoJS.DES.encrypt(plaintext, encryptionKey, {
-          mode: CryptoJS.mode.ECB,
-          padding: CryptoJS.pad.Pkcs7,
-        });
+        var encrypted = CryptoJS.DES.encrypt(
+          CryptoJS.enc.Utf8.parse(plaintext),
+          CryptoJS.enc.Utf8.parse(encryptionKey),
+          {
+            mode: CryptoJS.mode.ECB,
+            padding: CryptoJS.pad.Pkcs7,
+          }
+        );
 
         var ciphertext = encrypted.toString();
         document.getElementById("ciphertextResult").value = ciphertext;
@@ -311,12 +315,16 @@
         var decryptionKey = document.getElementById("decryptionPassword").value;
 
         // Menggunakan DES ECB
-        var decrypted = CryptoJS.DES.decrypt(ciphertext, decryptionKey, {
-          mode: CryptoJS.mode.ECB,
-          padding: CryptoJS.pad.Pkcs7,
-        });
+        var decrypted = CryptoJS.DES.decrypt(
+          ciphertext,
+          CryptoJS.enc.Utf8.parse(decryptionKey),
+          {
+            mode: CryptoJS.mode.ECB,
+            padding: CryptoJS.pad.Pkcs7,
+          }
+        );
 
-        var originalText = decrypted.toString(CryptoJS.enc.Utf8);
+        var originalText = CryptoJS.enc.Utf8.stringify(decrypted);
         document.getElementById("originalResult").value = originalText;
         openB();
       }
