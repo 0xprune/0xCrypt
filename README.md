@@ -1,4 +1,4 @@
-<h1 align="center">0xCrypt</h1>
+<h1 align="center">🔐 0xCrypt</h1>
 <p></p>
 
 <h4 align="center">Enkripsi dan dekripsi pesan text anda dengan algoritma AES dan DES-ECB yang dilengkapi password enkripsi untuk keamanan berlapis. Dibuat dengan framework CSS <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a> dan Vanilla JavaScript.
@@ -42,13 +42,13 @@ $ git clone https://github.com/0xprune/0xcrypt.git
 <p></p>
 <h2 id="contribution">🫡 Contribution</h2>
 
-[Aescrypt](https://github.com/syauqi/aescrypt) - project ini terinspirasi dari *Aescrypt*.
+[Aescrypt](https://github.com/syauqi/aescrypt) - project ini terinspirasi dari *Aescrypt*. 😻
 
 <p></p>
 
 <h2 id="license">📝 License</h2>
 
--   0xCrypt adalah aplikasi web open-source yang berlisensi dibawah lisensi MIT
+0xCrypt adalah aplikasi web open-source yang berlisensi dibawah lisensi MIT
 
 ---
 
