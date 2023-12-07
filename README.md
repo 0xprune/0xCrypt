@@ -23,7 +23,7 @@ Enkripsi dan dekripsi pesan text anda dengan algoritma AES dan DES-EDB yang dile
 
 <h2 id="demo">🏠 Demo Page</h2>
 
-Halaman demo dapat anda akses di link berikut https://aescrypt.netlify.app/
+Halaman demo dapat anda akses di link berikut https://0xcrypt.netlify.app/
 
 <p></p>
 
