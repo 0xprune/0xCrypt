@@ -17,7 +17,7 @@
 <p></p>
 
 <h2 id="about">🎇 About</h2>
-Enkripsi dan dekripsi pesan text anda dengan algoritma RSA yang dilengkapi password enkripsi untuk keamanan berlapis. Project ini merupakan tugas kuliah mata kuliah Manajemen Keamanan Informasi.
+Enkripsi dan dekripsi pesan text anda dengan algoritma RSA yang dilengkapi password enkripsi untuk keamanan berlapis. Project ini merupakan tugas akhir pada mata kuliah Kriptografi.
 
 <p></p>
 
